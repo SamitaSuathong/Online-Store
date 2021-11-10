@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <title>Document</title>
+
+     <style>
+         .access-point1 {border: 1px solid rgb(238, 238, 238); height: 100px; text-align: center; background-color:rgb(255, 242, 204) ;}
+         .access-point2 {border: 1px solid rgb(238, 238, 238); height: 200px; text-align: center; background-color:rgb(170, 109, 39) ;}
+     </style>
+
+</head>
+<body>
+    <div name="site-header" class="access-point1" style="height: 130px";>
+      <header class="blog-header py-3">
+        <div class="row flex-nowrap justify-content-between align-items-center">
+          <div class="col-4 pt-1">
+            <a class="text-muted" href="#">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mx-3"><circle cx="10.5" cy="10.5" r="7.5"></circle><line x1="21" y1="21" x2="15.8" y2="15.8"></line></svg>
+            </a>
+            <a class="text-muted" href="#">Search</a>
+          </div>
+          <div class="col-4 text-center">
+            <img class="blog-header-logo text-dark" src="Images/logo.png" width="150" height="100"></img>
+          </div>
+          <div class="col-4 d-flex justify-content-end align-items-center">
+            <a class="text-muted" href="#"> Create account or </a>
+            <a class="btn btn-sm btn-outline-secondary" href="#">Log in</a>
+          </div>
+        </div>
+      </header>
+   </div>
+   
+   <div name="site-nev" class="access-point2" style="height: 500px";>
+    <!-- Nev and Carousel -->
+    <div class="nav-scroller py-1 mb-2">
+      <nav class="nav d-flex justify-content-between">
+        <a class="p- text-white" href="#">SHOP ALL</a>
+        <a class="p-2 text-white" href="#">LIMITED COLLECTION</a>
+        <a class="p-2 text-white" href="#">SPECIAL OFFERS</a>
+        <a class="p-2 text-white" href="#">OUR STORY</a>
+      </nav>
+    </div>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class=""></li>
+        <li data-target="#myCarousel" data-slide-to="1" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item">
+          <img class="first-slide" src="Images/c3.jpg" alt="First slide">
+          <div class="container">
+            <div class="carousel-caption text-left">
+              <h1>11.11</h1>
+              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <p><a class="btn btn-lg btn-light" href="#" role="button">Sign up today</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item active">
+          <img class="second-slide" src="Images/c2.jpg" alt="Second slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>New Arrival</h1>
+              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <p><a class="btn btn-lg btn-light" href="#" role="button">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="third-slide" src="Images/c1.jpg" alt="Third slide">
+          <div class="container">
+            <div class="carousel-caption text-right">
+              <h1>Most Picked</h1>
+              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <p><a class="btn btn-lg btn-light" href="#" role="button">Browse gallery</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div> 
+
+
+        
+    <div name="site-cate" class="access-point1" style="height: 820px"; >
+      <div class="row align-items-md-stretch">
+        <div class="col-md-6">
+          <div class="h-100 p-5 text-dark rounded-3">
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/mh3uM3XF708" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+              </iframe>
+            </div>
+            <h2>Our BUBBLE Review</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+            </p>
+            <button class="btn btn-outline-dark" type="button">Watch on YouTube</button>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="col-md-12">
+            <div class="h-80 p-3 bg-light border rounded-3">
+              <img class="img-thumbnail-centre" src="/Images/c1.jpg" style="height: 100px; width: 150px; display: inside;"/>
+              <h4>Most Picked</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <button class="btn btn-outline-dark" type="button">Shop now</button>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <div class="h-80 p-3 bg-light border rounded-3">
+              <img class="img-thumbnail-centre" src="/Images/c2.jpg" style="height: 100px; width: 150px; display: inside;"/>
+              <h4>New Arrival</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <button class="btn btn-outline-dark" type="button">Let see</button>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <div class="h-80 p-3 bg-light border rounded-3">
+              <img class="img-thumbnail-centre" src="/Images/c3.jpg" style="height: 100px; width: 150px; display: inside;"/>
+              <h4>From Review</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <button class="btn btn-outline-dark" type="button">More details</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+
+    
+    <div name="site-footer" class="access-point2" style="height: 160px">
+      <footer class="text-center text-lg-start bg-light text-muted">
+        <!-- Section: Social media -->
+        <section
+          class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+        >
+          <!-- Left -->
+          <div class="me-5 d-none d-lg-block">
+            <span>CHECK OUT our Social Media!:</span>
+          </div>
+          <!-- Left -->
+      
+          <!-- Right -->
+          <div>
+            <a href="" class="me-4 text-reset">
+              <img class="fab fa-facebook-f" src="Images/fb.png" width="25" height="25"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <img class="fab fa-twitter" src="Images/tw.png" width="25" height="25"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <img class="fab fa-instagram" src="Images/ig.png" width="25" height="25"></i>
+            </a>
+          </div>
+          <!-- Right -->
+        </section>
+        <!-- Section: Social media -->
+      
+        <!-- Section: Links  -->
+        <section class="">
+          <div class="container text-center text-md-start mt-5">
+            <!-- Grid row -->
+            <div class="row mt-3">
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                <!-- Content -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                  <i class="fas fa-gem me-3"></i>Show Your Bubble
+                </h6>
+                <p>
+                  Don't miss "Show Your Bubble" campaign by post using the hashtag #ShowYourBubble #BUBBLEBEAR
+                </p>
+              </div>
+              <!-- Grid column -->
+      
+              <!-- Grid column -->
+              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                <h6 class="text-uppercase fw-bold mb-4">
+                  Features
+                </h6>
+                <p>
+                  <a href="#!" class="text-reset">Product</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Review</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Profile</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Voucher</a>
+                </p>
+              </div>
+              <!-- Grid column -->
+      
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                  About
+                </h6>
+                <p>
+                  <a href="#!" class="text-reset">Policy</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Terms of service</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Search</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Help</a>
+                </p>
+              </div>
+              <!-- Grid column -->
+      
+              
+            </div>
+            <!-- Grid row -->
+          </div>
+        </section>
+        <!-- Section: Links  -->
+      
+        <!-- Copyright -->
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+          © 2021 Copyright:
+          <a class="text-reset fw-bold" href="https://mdbootstrap.com/">BUBLE BEAR OFFICIAL STORE</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+</div>
+
+
+<!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+</body>
+</html>
+
+</div>
+
+</body>
+</html>
